@@ -44,8 +44,6 @@ INSTALLED_APPS = [
     'captcha',
     'captcha_app',
     'user.User.UserLogin',
-    # 'user.Security.Two_Fact_Auth',
-    # 'user.Security.Authentication',
     'user.User.UserGeneral',
 
 ]
@@ -149,7 +147,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'Sidrabazarcommerce@gmail.com'
-EMAIL_HOST_PASSWORD = 'Rgc!Bazar$@om#'
+EMAIL_HOST_USER = '#######@gmail.com'
+EMAIL_HOST_PASSWORD = '#########'
 
 

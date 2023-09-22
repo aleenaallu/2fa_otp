@@ -60,7 +60,7 @@ class TwoFactorAuthenticationMiddleware:
         # Send the OTP to the user via email
         subject = 'Your OTP for Two-Factor Authentication'
         message = f'Hi {user.username},\n\nYour OTP is {otp}.\n\nPlease enter this code to verify your identity.\n\nThank you,\nThe Two-Factor Authentication System'
-        from_email = 'sidrabazarcommerce@gmail.com'
+        from_email = '#######@gmail.com'
         recipient_list = [user.email]
         send_mail(subject, message, from_email, recipient_list)
 
